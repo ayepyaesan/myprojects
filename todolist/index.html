@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+<!--    fontawesome css 1-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1 class="title">To Do List</h1>
+        <small class="subdate"></small>
+        <input type="text" id="search" name="search" class="search" placeholder="Search by Name..." autocomplete="off" />
+        <small class="info">Left click to complete and Right click to delete</small>
+    </div>
+    <ul id="todos" class="todos">
+<!--       <textarea class="maintxt"></textarea>-->
+<!--        <li>Have to cook</li>-->
+    </ul>
+    <div class="footer">
+        <small class="tasks">0 task to go</small>
+        <div class="addtasks">
+            <form action="" method="">
+                <input type="text" id="add" name="add" class="add" placeholder="Add new.." autocomplete="off" />
+            </form>
+            <button id="addbtn" class="addbtn"><i class="fas fa-plus"></i></button>
+        </div>
+    </div>
+</div>
+
+<script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
